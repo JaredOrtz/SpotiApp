@@ -1,0 +1,8 @@
+<h2 class="m-5">Buscar un artista</h2>
+<div class="row animated fadeIn">
+	<div class="col">
+		<input #finished type="text" class="form-control input-search" placeholder="Buscar artista..." (keyup)="search(finished.value)">
+	</div>
+</div>
+<app-loading *ngIf="loading" class="m-5"></app-loading>
+<app-cards *ngIf="!loading" [items]="artists"></app-cards>
