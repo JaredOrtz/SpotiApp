@@ -1,27 +1,11 @@
-# Spotiapp
+<h1 align="center">
+SpotiApp 🎧
+</h1>
+<p align="center">Es una aplicación echa con angular 7 en el cual consume la Api de Spotify, Muestra los ultimos lanzamientos, tiene un buscador de artistas, tiene su propio perfil el artista con sus canciones además tiene un widget para que escuches una cancion previa.</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+## Como Usar
+Debes tener una cuenta de spotify para que puedas usar su api.
+ingresa a la página "Spotify For Developers" en la seccion de "Dashboard" <a href="https://developer.spotify.com/dashboard/">Dashboard</a> 👈, logeate con tu cuenta y crea una "nueva app", Ingresa el nombre de tu app, una pequeña descripcion y selecciona que estas construyendo un website, en el segundo paso selecciona que no vas a generar ingresos con su Api, posteriormente acepta todos los terminos.
+una vez que ya tengas tu app iniciada te proporcionaran un client_id y client_secret. estos te serviran para que puedas generar un token. **Ojo este token expira cada hora yo hacia la peticion para generar el token con postman** y listo. 😎
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<h2 align="center">Saludos... 🤟 </h2>
